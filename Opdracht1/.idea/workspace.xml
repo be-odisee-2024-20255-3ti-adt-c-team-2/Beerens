@@ -1,8 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6445e76e-908d-461b-aa64-f1ebb8203ae8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/AnalyseMarktvraag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Levering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerkerFunctie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/Factuur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/verkoop/Verkoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bestelling/BestellingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2nCbuVkRahbmDrXT0qjsTp1gmpc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/32488/Desktop/Github/Beerens/Opdracht1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.autos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BestellingTest">
+    <configuration name="BestellingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bestelling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bestelling" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestellingTest.testBestelConditionCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bestelling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bestelling" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
+      <option name="METHOD_NAME" value="testBestelConditionCoverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestellingTest.testBestelConditionDecisionCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bestelling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bestelling" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
+      <option name="METHOD_NAME" value="testBestelConditionDecisionCoverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestellingTest.testBestelDecisionCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bestelling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bestelling" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
+      <option name="METHOD_NAME" value="testBestelDecisionCoverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestellingTest.testBestelStatementCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bestelling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bestelling" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
+      <option name="METHOD_NAME" value="testBestelStatementCoverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BestellingTest" />
+        <item itemvalue="JUnit.BestellingTest.testBestelDecisionCoverage" />
+        <item itemvalue="JUnit.BestellingTest.testBestelConditionDecisionCoverage" />
+        <item itemvalue="JUnit.BestellingTest.testBestelConditionCoverage" />
+        <item itemvalue="JUnit.BestellingTest.testBestelStatementCoverage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6445e76e-908d-461b-aa64-f1ebb8203ae8" name="Changes" comment="" />
+      <created>1728480227739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728480227739</updated>
+      <workItem from="1728480228756" duration="844000" />
+      <workItem from="1728482134993" duration="3297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

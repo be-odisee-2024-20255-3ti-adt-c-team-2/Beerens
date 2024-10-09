@@ -1,19 +1,29 @@
 package org.example;
 
+import org.example.autos.Autosoort;
+import org.example.bestelling.Bestelling;
+import org.example.personeel.Factuur;
+
+import java.util.Date;
+
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press ⌥⏎ with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Maak een nieuwe autosoort aan
+        Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
 
-        // Press ⌃R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Maak een nieuwe bestelling
+        Factuur factuur = new Factuur(1, "Factuur voor bestelling 1");
+        Bestelling bestelling = new Bestelling(1, "In behandeling", autosoort, 2, new Date(), factuur, new Date());
 
-            // Press ⌃D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing ⌘F8.
-            System.out.println("i = " + i);
+        // Verwerk de bestelling
+        bestelling.bestel();
+        System.out.println("Bestelling is geplaatst!");
+
+        // Controleer of de bestelling geleverd is
+        if (bestelling.isGeleverd() != null) {
+            System.out.println("De bestelling is geleverd!");
         }
     }
 }
