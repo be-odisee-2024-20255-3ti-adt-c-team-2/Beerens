@@ -18,4 +18,9 @@ public class AnalyseMarktvraag {
     public void vervang() {
         this.status = "Vervangen";
     }
+
+    public String getStatus() {
+        return this.status;
+    }
+
 }

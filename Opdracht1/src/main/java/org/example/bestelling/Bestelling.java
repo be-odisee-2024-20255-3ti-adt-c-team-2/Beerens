@@ -42,6 +42,15 @@ public class Bestelling {
         return status;
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public void markeerAlsAfgerond() {
+        this.status = "Afgerond";
+    }
+
+
     public Levering isGeleverd() {
         return new Levering(this.id, new Date(), this);
     }
