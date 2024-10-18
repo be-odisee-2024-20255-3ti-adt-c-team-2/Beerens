@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6445e76e-908d-461b-aa64-f1ebb8203ae8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/AnalyseMarktvraag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Levering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerkerFunctie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/Factuur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/verkoop/Verkoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bestelling/BestellingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/autos/AutosoortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/autos/AnalyseMarktvraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/AnalyseMarktvraag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +62,54 @@
       <recent name="org.example.autos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BestellingTest">
+  <component name="RunManager" selected="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen">
+    <configuration name="AutosoortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutosoortTest.testBestellingVerwerken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="METHOD_NAME" value="testBestellingVerwerken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="METHOD_NAME" value="testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BestellingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Opdracht1" />
       <extension name="coverage">
@@ -84,38 +121,6 @@
       <option name="PACKAGE_NAME" value="org.example.bestelling" />
       <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BestellingTest.testBestelConditionCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Opdracht1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.bestelling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.bestelling" />
-      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
-      <option name="METHOD_NAME" value="testBestelConditionCoverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BestellingTest.testBestelConditionDecisionCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Opdracht1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.bestelling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.bestelling" />
-      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
-      <option name="METHOD_NAME" value="testBestelConditionDecisionCoverage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,29 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestellingTest.testBestelStatementCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Opdracht1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.bestelling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.bestelling" />
-      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
-      <option name="METHOD_NAME" value="testBestelStatementCoverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
+        <item itemvalue="JUnit.AutosoortTest.testBestellingVerwerken" />
+        <item itemvalue="JUnit.AutosoortTest" />
         <item itemvalue="JUnit.BestellingTest" />
         <item itemvalue="JUnit.BestellingTest.testBestelDecisionCoverage" />
-        <item itemvalue="JUnit.BestellingTest.testBestelConditionDecisionCoverage" />
-        <item itemvalue="JUnit.BestellingTest.testBestelConditionCoverage" />
-        <item itemvalue="JUnit.BestellingTest.testBestelStatementCoverage" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +161,8 @@
       <updated>1728480227739</updated>
       <workItem from="1728480228756" duration="844000" />
       <workItem from="1728482134993" duration="3297000" />
+      <workItem from="1728629248278" duration="31000" />
+      <workItem from="1729184818515" duration="1013000" />
     </task>
     <servers />
   </component>

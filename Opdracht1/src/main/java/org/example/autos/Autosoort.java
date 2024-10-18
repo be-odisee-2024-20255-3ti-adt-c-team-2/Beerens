@@ -37,4 +37,21 @@ public class Autosoort {
     public void bestellingAfgerond() {
         this.status = "Afgerond";
     }
+
+    public int getHuidigVoorraadniveau() {
+        return this.huidigVoorraadniveau;
+    }
+
+    public int getMinimumpeiler() {
+        return this.minimumpeiler;
+    }
+
+    public AnalyseMarktvraag getMarktvraag() {
+        return this.marktvraag;
+    }
+
+    public void updateVoorraad(int nieuweVoorraad) {
+        this.huidigVoorraadniveau = nieuweVoorraad;
+    }
+
 }
