@@ -11,11 +11,11 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         // Maak een nieuwe autosoort aan
-        Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
+        Autosoort autosoort = new Autosoort("Model X", "Tesla", 10, 1, 20);
 
         // Maak een nieuwe bestelling
-        Factuur factuur = new Factuur(1, "Factuur voor bestelling 1");
-        Bestelling bestelling = new Bestelling(1, "In behandeling", autosoort, 2, new Date(), factuur, new Date());
+        Factuur factuur = new Factuur("Factuur voor bestelling 1");
+        Bestelling bestelling = new Bestelling(autosoort, 2);
 
         // Verwerk de bestelling
         bestelling.bestel();

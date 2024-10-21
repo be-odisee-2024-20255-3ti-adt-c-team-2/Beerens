@@ -14,7 +14,7 @@ class AutosoortTest {
     @BeforeEach
     void setUp() {
         // Stel de autosoort in met een initiële voorraad en peilers
-        autosoort = new Autosoort(1, "Model X", "Tesla", 10, 5, 20);
+        autosoort = new Autosoort("Model X", "Tesla", 10, 5, 20);
     }
 
     @Test

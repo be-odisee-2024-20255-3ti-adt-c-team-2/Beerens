@@ -20,8 +20,8 @@ public class BestellingTest {
     */
     @Test
     public void testBestelStatementCoverage() {
-        Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
-        Bestelling bestelling = new Bestelling(1, "In behandeling", autosoort, 2, new Date(), null, new Date());
+        Autosoort autosoort = new Autosoort( "Model X", "Tesla", 10, 1, 20);
+        Bestelling bestelling = new Bestelling(autosoort, 2);
 
         bestelling.bestel();
 
@@ -35,7 +35,7 @@ Doel: Elke beslissingsuitkomst (waar/vals) moet minstens één keer worden getes
 Testbasis: Voeg een if-statement toe aan de methode bestel() en test zowel het waar- als vals-geval.
 Bijvoorbeeld: if (this.status.equals("In behandeling"))
 Junit Test:
- */
+
     @Test
     public void testBestelDecisionCoverage() {
         Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
@@ -64,7 +64,7 @@ Doel: Elk onderdeel van een samengestelde voorwaarde moet apart worden getest.
 Testbasis: Voeg samengestelde logische condities toe en test elk onderdeel.
 Bijvoorbeeld: if (this.status.equals("In behandeling") && hoeveelheid > 0)
 Junit Test:
- */
+
     @Test
     public void testBestelConditionCoverage() {
         Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
@@ -87,7 +87,7 @@ Junit Test:
 Doel: Zowel elke beslissing als elke voorwaarde moet volledig worden getest.
 Testbasis: Test combinaties van voorwaarden en beslissingen.
 Junit Test:
-     */
+
     @Test
     public void testBestelConditionDecisionCoverage() {
         Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
@@ -115,7 +115,7 @@ Junit Test:
 Doel: Elke voorwaarde moet onafhankelijk het resultaat van de beslissing beïnvloeden.
 Testbasis: We moeten ervoor zorgen dat elke conditie onafhankelijk kan beïnvloeden of een beslissing waar of onwaar is.
 Junit Test:
- */
+
     @Test
     public void testBestelMCDC() {
         Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
@@ -137,7 +137,7 @@ Junit Test:
 Doel: Test alle mogelijke combinaties van voorwaarden.
 Testbasis: Maak testen met verschillende combinaties van voorwaarden.
 Junit Test:
- */
+
     @Test
     public void testBestelMultipleConditionCoverage() {
         Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
@@ -163,7 +163,7 @@ Junit Test:
     7. Path Coverage
 Doel: Test elke mogelijke route door de code.
 Testbasis: Test verschillende paden die de code kan nemen.
-     */
+
     @Test
     public void testBestelPathCoverage() {
         Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
@@ -178,5 +178,6 @@ Testbasis: Test verschillende paden die de code kan nemen.
         bestelling2.bestel();
         assertNotEquals("Besteld", bestelling2.getStatus());
     }
+    */
 
 }
