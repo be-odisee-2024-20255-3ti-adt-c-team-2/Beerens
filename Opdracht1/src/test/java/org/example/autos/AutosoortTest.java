@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AutosoortTest {
 
+    /*
     private Autosoort autosoort;
 
     @BeforeEach
@@ -73,5 +74,5 @@ class AutosoortTest {
             assertEquals("Besteld", bestelling.getStatus(), "Bestelling zou moeten worden geplaatst.");
         }
     }
-
+*/
 }

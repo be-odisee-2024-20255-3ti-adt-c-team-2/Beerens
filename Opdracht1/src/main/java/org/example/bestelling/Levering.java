@@ -1,6 +1,5 @@
 package org.example.bestelling;
 
-
 import java.util.Date;
 import java.util.UUID;
 
@@ -8,7 +7,7 @@ import java.util.UUID;
  * Vertegenwoordigt een levering van een bestelling met details zoals leverdatum en de bijbehorende bestelling.
  */
 public class Levering {
-    private int id;
+    private String id; // This is a UUID as a String
     private Date leverdatum;
     private Bestelling bestelling;
 
@@ -19,7 +18,7 @@ public class Levering {
      * @param bestelling de bestelling die geleverd wordt
      */
     public Levering(Date leverdatum, Bestelling bestelling) {
-        this.id = Integer.parseInt(UUID.randomUUID().toString());
+        this.id = UUID.randomUUID().toString(); // Generate a UUID as a String
         this.leverdatum = leverdatum;
         this.bestelling = bestelling;
     }
@@ -29,8 +28,8 @@ public class Levering {
      *
      * @return de unieke ID van de levering
      */
-    public int getId() {
-        return id;
+    public String getId() { // Change return type to String
+        return id; // Return the UUID as a String
     }
 
     /**

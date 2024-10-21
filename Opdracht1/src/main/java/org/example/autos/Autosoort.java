@@ -9,7 +9,7 @@ import java.util.UUID;
  * marktanalyse en bestelmogelijkheden.
  */
 public class Autosoort {
-    private int id;
+    private String id;
     private String status;
     private String naam;
     private String merk;
@@ -28,7 +28,7 @@ public class Autosoort {
      * @param maximumpeiler       de maximale voorraadgrens
      */
     public Autosoort(String naam, String merk, int huidigVoorraadniveau, int minimumpeiler, int maximumpeiler) {
-        this.id = Integer.parseInt(UUID.randomUUID().toString());
+        this.id = UUID.randomUUID().toString();
         this.naam = naam;
         this.merk = merk;
         this.huidigVoorraadniveau = huidigVoorraadniveau;

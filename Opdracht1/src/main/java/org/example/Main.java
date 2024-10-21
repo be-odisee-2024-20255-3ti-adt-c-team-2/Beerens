@@ -18,12 +18,13 @@ public class Main {
         Bestelling bestelling = new Bestelling(autosoort, 2);
 
         // Verwerk de bestelling
-        bestelling.bestel();
+        bestelling.bestel("14/09/2025");
         System.out.println("Bestelling is geplaatst!");
 
         // Controleer of de bestelling geleverd is
+        /*
         if (bestelling.isGeleverd() != null) {
             System.out.println("De bestelling is geleverd!");
-        }
+        }*/
     }
 }
