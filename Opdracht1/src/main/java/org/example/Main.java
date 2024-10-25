@@ -4,6 +4,9 @@ import org.example.autos.Autosoort;
 import org.example.bestelling.Bestelling;
 import org.example.personeel.Factuur;
 
+// We gebruiken het Mockito mocking framework
+
+
 import java.util.Date;
 
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
