@@ -46,6 +46,10 @@ public class Autosoort {
         return this.minimumpeiler;
     }
 
+    public int getMaximumpeiler() {
+        return this.maximumpeiler;
+    }
+
     public AnalyseMarktvraag getMarktvraag() {
         return this.marktvraag;
     }

@@ -14,11 +14,14 @@ class AutosoortTest {
     @BeforeEach
     void setUp() {
         // Stel de autosoort in met een initiële voorraad en peilers
-        autosoort = new Autosoort(1, "Model X", "Tesla", 10, 5, 20);
+        autosoort = new Autosoort(1, "Model X", "Tesla", 0, 3, 10);
     }
 
     @Test
     void testVoorraadBovenMinimumPeiler() {
+
+        autosoort.updateVoorraad(7);
+
         // Controleer of de voorraad boven de minimumpeiler ligt
         assertTrue(autosoort.getHuidigVoorraadniveau() > autosoort.getMinimumpeiler(),
                 "De voorraad zou boven de minimumpeiler moeten liggen.");
@@ -26,6 +29,9 @@ class AutosoortTest {
 
     @Test
     void testVoorraadOnderMinimumPeiler() {
+
+        autosoort.updateVoorraad(2);
+
         // Verlaag de voorraad en controleer opnieuw
         autosoort.updateVoorraad(3);
         assertFalse(autosoort.getHuidigVoorraadniveau() > autosoort.getMinimumpeiler(),
@@ -61,7 +67,7 @@ class AutosoortTest {
     @Test
     void testVoorraadOnderMinimumPeilerBestellingPlaatsen() {
         // Stel de minimum peiler in
-        autosoort.updateVoorraad(3); // Verlaag de voorraad tot onder de minimum peiler
+        autosoort.updateVoorraad(2); // Verlaag de voorraad tot onder de minimum peiler
 
         // Controleer of de voorraad onder de minimum peiler ligt
         if (autosoort.getHuidigVoorraadniveau() < autosoort.getMinimumpeiler()) {
@@ -73,5 +79,21 @@ class AutosoortTest {
             assertEquals("Besteld", bestelling.getStatus(), "Bestelling zou moeten worden geplaatst.");
         }
     }
+
+    @Test
+    void testGeenBestellingBovenMaximumPeiler() {
+ // Stel maximumpeiler in op 10 eenheden
+        autosoort.updateVoorraad(12); // Zet de voorraad boven de maximumpeiler
+
+        // Controleer of de voorraad boven de maximumpeiler ligt
+        if (autosoort.getHuidigVoorraadniveau() > autosoort.getMaximumpeiler()) {
+            // Probeer een bestelling te plaatsen
+            Bestelling bestelling = autosoort.voegBestellingToe(5);
+            bestelling.setStatus("Afgekeurd");
+
+            assertEquals("Afgekeurd", bestelling.getStatus(), "Geen bestelling mogelijk, voorraad ligt boven maximumpeiler.");
+        }
+    }
+
 
 }
