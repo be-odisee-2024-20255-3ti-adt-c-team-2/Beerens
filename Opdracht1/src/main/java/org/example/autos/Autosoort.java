@@ -91,11 +91,10 @@ public class Autosoort {
         return this.minimumpeiler;
     }
 
-    /**
-     * Geeft de marktanalysevraag terug die geassocieerd is met dit autotype.
-     *
-     * @return de marktanalysevraag
-     */
+    public int getMaximumpeiler() {
+        return this.maximumpeiler;
+    }
+
     public AnalyseMarktvraag getMarktvraag() {
         return this.marktvraag;
     }

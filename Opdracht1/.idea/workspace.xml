@@ -68,7 +68,7 @@
       <recent name="org.example.autos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BestellingTest.testBestelStatementCoverage">
+  <component name="RunManager" selected="JUnit.AutosoortTest">
     <configuration name="AutosoortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Opdracht1" />
       <extension name="coverage">
@@ -100,6 +100,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutosoortTest.testGeenBestellingBovenMaximumPeiler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="METHOD_NAME" value="testGeenBestellingBovenMaximumPeiler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutosoortTest.testVoegMarktanalyseToe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="METHOD_NAME" value="testVoegMarktanalyseToe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Opdracht1" />
       <extension name="coverage">
@@ -116,44 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestellingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Opdracht1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.bestelling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.bestelling" />
-      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BestellingTest.testBestelStatementCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Opdracht1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.bestelling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.bestelling" />
-      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
-      <option name="METHOD_NAME" value="testBestelStatementCoverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BestellingTest.testBestelStatementCoverage" />
-        <item itemvalue="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
-        <item itemvalue="JUnit.AutosoortTest.testBestellingVerwerken" />
         <item itemvalue="JUnit.AutosoortTest" />
-        <item itemvalue="JUnit.BestellingTest" />
+        <item itemvalue="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
+        <item itemvalue="JUnit.AutosoortTest.testGeenBestellingBovenMaximumPeiler" />
+        <item itemvalue="JUnit.AutosoortTest.testBestellingVerwerken" />
+        <item itemvalue="JUnit.AutosoortTest.testVoegMarktanalyseToe" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +178,8 @@
       <workItem from="1728482134993" duration="3297000" />
       <workItem from="1728629248278" duration="31000" />
       <workItem from="1729184818515" duration="1013000" />
-      <workItem from="1729494210671" duration="10732000" />
+      <workItem from="1729839791884" duration="38000" />
+      <workItem from="1730134490530" duration="1448000" />
     </task>
     <servers />
   </component>
