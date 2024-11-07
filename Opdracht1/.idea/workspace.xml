@@ -7,9 +7,14 @@
     <list default="true" id="6445e76e-908d-461b-aa64-f1ebb8203ae8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/autos/AnalyseMarktvraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/AnalyseMarktvraag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Levering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Levering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerkerFunctie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/BeerensMedewerkerFunctie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/personeel/Factuur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/personeel/Factuur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/verkoop/Verkoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/verkoop/Verkoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/autos/AutosoortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/autos/AutosoortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bestelling/BestellingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bestelling/BestellingTest.java" afterDir="false" />
     </list>
@@ -28,10 +33,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2nCbuVkRahbmDrXT0qjsTp1gmpc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,36 +44,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen.executor": "Run",
-    "JUnit.BestellingTest.executor": "Run",
-    "JUnit.BestellingTest.testBestelStatementCoverage.executor": "Coverage",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mandylenaerts/Desktop/ADT-C/Beerens/Opdracht1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BestellingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BestellingTest.testBestelStatementCoverage.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mandylenaerts/Desktop/ADT-C/Beerens/Opdracht1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.autos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BestellingTest.testBestelStatementCoverage">
+  <component name="RunManager" selected="JUnit.AutosoortTest">
     <configuration name="AutosoortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Opdracht1" />
       <extension name="coverage">
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutosoortTest" />
+        <item itemvalue="JUnit.BestellingTest" />
         <item itemvalue="JUnit.BestellingTest.testBestelStatementCoverage" />
         <item itemvalue="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
         <item itemvalue="JUnit.AutosoortTest.testBestellingVerwerken" />
-        <item itemvalue="JUnit.AutosoortTest" />
-        <item itemvalue="JUnit.BestellingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,10 +201,10 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest_testBestelStatementCoverage.ic" NAME="BestellingTest.testBestelStatementCoverage Coverage Results" MODIFIED="1729504007027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest.ic" NAME="BestellingTest Coverage Results" MODIFIED="1729499079802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.bestelling.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest.ic" NAME="BestellingTest Coverage Results" MODIFIED="1729499079802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest_testBestelStatementCoverage.ic" NAME="BestellingTest.testBestelStatementCoverage Coverage Results" MODIFIED="1729504007027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.bestelling.*</FILTER>
     </SUITE>
   </component>
