@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6445e76e-908d-461b-aa64-f1ebb8203ae8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/feature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/verkoop/VerkoopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/verkoop/verkoopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,7 +50,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dawa Lama/OneDrive - ODISEE/3d Jaar IT/Software Testing/Praktijk/brainstorm2018wa2sb2023selenium&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dawa Lama/OneDrive - ODISEE/3d Jaar IT/Software Testing/Praktijk/testmockito&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,21 +61,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.verkoop" />
       <recent name="org.example.autos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen">
-    <configuration name="AutosoortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BestellingTest">
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Opdracht1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="PATTERN" value="org.example.verkoop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.autos" />
-      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,29 +126,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestellingTest.testBestelDecisionCoverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="verkoopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Opdracht1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.bestelling.*" />
+          <option name="PATTERN" value="org.example.verkoop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.bestelling" />
-      <option name="MAIN_CLASS_NAME" value="org.example.bestelling.BestellingTest" />
-      <option name="METHOD_NAME" value="testBestelDecisionCoverage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.verkoop" />
+      <option name="MAIN_CLASS_NAME" value="org.example.verkoop.verkoopTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BestellingTest" />
+        <item itemvalue="JUnit.verkoopTest" />
+        <item itemvalue="Application.org.example.Main" />
         <item itemvalue="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
         <item itemvalue="JUnit.AutosoortTest.testBestellingVerwerken" />
-        <item itemvalue="JUnit.AutosoortTest" />
-        <item itemvalue="JUnit.BestellingTest" />
-        <item itemvalue="JUnit.BestellingTest.testBestelDecisionCoverage" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +165,13 @@
       <workItem from="1729184818515" duration="1013000" />
       <workItem from="1729240675826" duration="3624000" />
       <workItem from="1729839932489" duration="64000" />
-      <workItem from="1729846913498" duration="359000" />
+      <workItem from="1729846913498" duration="954000" />
+      <workItem from="1730378271549" duration="3720000" />
+      <workItem from="1730725117069" duration="6136000" />
+      <workItem from="1730801441234" duration="2028000" />
+      <workItem from="1730997473654" duration="1176000" />
+      <workItem from="1731007690833" duration="3486000" />
+      <workItem from="1731053251382" duration="897000" />
     </task>
     <servers />
   </component>
@@ -184,5 +188,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest.ic" NAME="BestellingTest Coverage Results" MODIFIED="1731053428675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.bestelling.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Opdracht1$verkoopTest.ic" NAME="verkoopTest Coverage Results" MODIFIED="1730725673853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.verkoop.*</FILTER>
+    </SUITE>
   </component>
 </project>
