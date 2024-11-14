@@ -23,4 +23,8 @@ public class AnalyseMarktvraag {
         return this.status;
     }
 
+    public String getBeschrijving() {
+        return beschrijving;
+    }
+
 }

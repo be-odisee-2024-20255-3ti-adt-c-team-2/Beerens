@@ -5,8 +5,8 @@ import org.example.bestelling.Bestelling;
 public class Autosoort {
     private int id;
     private String status;
-    private String naam;
-    private String merk;
+    String naam;
+    String merk;
     private int huidigVoorraadniveau;
     private int minimumpeiler;
     private int maximumpeiler;
@@ -58,4 +58,25 @@ public class Autosoort {
         this.huidigVoorraadniveau = nieuweVoorraad;
     }
 
+    public void setMinimumpeiler(int nieuweMinimumpeiler) {
+        if (nieuweMinimumpeiler <= maximumpeiler) {
+            this.minimumpeiler = nieuweMinimumpeiler;
+        } else {
+            throw new IllegalArgumentException("Minimumpeiler kan niet hoger zijn dan maximumpijler.");
+        }
+    }
+
+    public String checkVoorraadEnMeldOnderMinimum() {
+        if (huidigVoorraadniveau < minimumpeiler) {
+            return "De voorraad ligt onder de minimumpeiler";
+        }
+        return "Voorraad is binnen de veilige marges";
+    }
+
+    public String stuurBerichtNaarVoorraadinkoper() {
+        if (huidigVoorraadniveau < minimumpeiler) {
+            return "Bestel meer auto's van deze autosoort";
+        }
+        return "Geen bestelling nodig";
+    }
 }
