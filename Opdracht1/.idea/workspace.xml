@@ -21,6 +21,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/autos/Autosoort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Bestelling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Levering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bestelling/Levering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/autos/AutosoortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/autos/AutosoortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bestelling/BestellingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bestelling/BestellingTest.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< Updated upstream
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,6 +53,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
+=======
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+>>>>>>> Stashed changes
   <component name="ProjectId" id="2nCbuVkRahbmDrXT0qjsTp1gmpc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,16 +69,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< Updated upstream
+=======
+    "Application.Main.executor": "Run",
+    "JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen.executor": "Run",
+    "JUnit.BestellingTest.executor": "Run",
+    "JUnit.BestellingTest.testBestelStatementCoverage.executor": "Coverage",
+>>>>>>> Stashed changes
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< Updated upstream
     "last_opened_file_path": "C:/Users/32488/Desktop/Github/Beerens/Opdracht1",
+=======
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mandylenaerts/Desktop/ADT-C/Beerens/Opdracht1",
+>>>>>>> Stashed changes
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+<<<<<<< Updated upstream
     "settings.editor.selected.configurable": "preferences.pluginManager",
+=======
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+>>>>>>> Stashed changes
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +106,58 @@
       <recent name="org.example.autos" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="JUnit.BestellingTest">
+=======
+  <component name="RunManager" selected="JUnit.BestellingTest.testBestelStatementCoverage">
+    <configuration name="AutosoortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutosoortTest.testBestellingVerwerken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="METHOD_NAME" value="testBestellingVerwerken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Opdracht1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.autos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.autos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.autos.AutosoortTest" />
+      <option name="METHOD_NAME" value="testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> Stashed changes
     <configuration name="BestellingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Opdracht1" />
       <extension name="coverage">
@@ -154,11 +239,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="JUnit.BestellingTest" />
         <item itemvalue="JUnit.BestellingTest.testBestelDecisionCoverage" />
         <item itemvalue="JUnit.BestellingTest.testBestelConditionDecisionCoverage" />
         <item itemvalue="JUnit.BestellingTest.testBestelConditionCoverage" />
         <item itemvalue="JUnit.BestellingTest.testBestelStatementCoverage" />
+=======
+        <item itemvalue="JUnit.BestellingTest.testBestelStatementCoverage" />
+        <item itemvalue="JUnit.AutosoortTest.testVoorraadOnderMinimumPeilerBestellingPlaatsen" />
+        <item itemvalue="JUnit.AutosoortTest.testBestellingVerwerken" />
+        <item itemvalue="JUnit.AutosoortTest" />
+        <item itemvalue="JUnit.BestellingTest" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -178,4 +271,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest_testBestelStatementCoverage.ic" NAME="BestellingTest.testBestelStatementCoverage Coverage Results" MODIFIED="1729504007027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.bestelling.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Opdracht1$BestellingTest.ic" NAME="BestellingTest Coverage Results" MODIFIED="1729499079802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.bestelling.*</FILTER>
+    </SUITE>
+  </component>
+>>>>>>> Stashed changes
 </project>

@@ -2,32 +2,30 @@ package org.example.bestelling;
 
 import org.example.autos.Autosoort;
 import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Date;
 
-import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-
 public class BestellingTest {
 
-    /*
-    1. Statement Coverage
-    Doel: Zorgen dat elke regel code minstens één keer wordt uitgevoerd.
-    Testbasis: We testen of alle statements in de methode bestel() correct worden uitgevoerd.
-    Testgevallen:
-    Maak een bestelling en roep de bestel() methode aan om de status van de bestelling te veranderen.
-    Junit Test:
-    */
     @Test
     public void testBestelStatementCoverage() {
-        Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
-        Bestelling bestelling = new Bestelling(1, "In behandeling", autosoort, 2, new Date(), null, new Date());
+        // Arrange
+        Autosoort autosoort = new Autosoort( "Civic", "Honda",
+                10, 1, 20);
+        Bestelling bestelling = new Bestelling(autosoort, 4);
 
-        bestelling.bestel();
+        // Act
+        bestelling.bestel("12/05/2025"); // verwachtte leverdatum
+        Levering levering = bestelling.isGeleverd("20/05/2025",
+                autosoort, 4);
 
-        assertEquals("Besteld", bestelling.getStatus());
+        // Assert
+        // Controleer of de levering succesvol is gemaakt
+        assertNotNull(levering);
     }
 
+<<<<<<< Updated upstream
 
 /*
 2. Decision Coverage
@@ -36,25 +34,27 @@ Testbasis: Voeg een if-statement toe aan de methode bestel() en test zowel het w
 Bijvoorbeeld: if (this.status.equals("In behandeling"))
 Junit Test:
  */
+=======
+>>>>>>> Stashed changes
     @Test
-    public void testBestelDecisionCoverage() {
-        Autosoort autosoort = new Autosoort(1, "Model X", "Tesla", 10, 1, 20);
+    public void testConditionCoverage() {
+        // Arrange
+        Autosoort autosoort = new Autosoort( "Civic", "Honda",
+                10, 1, 20);
+        Autosoort autosoortLevering = new Autosoort( "SUV", "Tesla",
+                10, 1, 20);
+        Bestelling bestelling = new Bestelling(autosoort, 5);
 
-        // Test waar-geval: status is "In behandeling" en hoeveelheid > 0
-        Bestelling bestelling1 = new Bestelling(1, "In behandeling", autosoort, 2, new Date(), null, new Date());
-        bestelling1.bestel();
-        assertEquals("Besteld", bestelling1.getStatus());
+        // Act
+        bestelling.bestel("12/05/2025"); // verwachtte leverdatum
+        Levering levering = bestelling.isGeleverd("24/05/2025",
+                autosoortLevering, 4);
 
-        // Test vals-geval: status is "In behandeling" maar hoeveelheid <= 0
-        Bestelling bestelling2 = new Bestelling(2, "In behandeling", autosoort, 0, new Date(), null, new Date());
-        bestelling2.bestel();
-        assertEquals("Niet besteld", bestelling2.getStatus());  // Controleer op de nieuwe status
-
-        // Test vals-geval: status is niet "In behandeling"
-        Bestelling bestelling3 = new Bestelling(3, "Geannuleerd", autosoort, 2, new Date(), null, new Date());
-        bestelling3.bestel();
-        assertEquals("Niet besteld", bestelling3.getStatus());  // Controleer op de nieuwe status
+        // Assert
+        // Controleer of de levering succesvol is gemaakt
+        assertNull(levering);
     }
+<<<<<<< Updated upstream
 
 
 
@@ -180,3 +180,6 @@ Testbasis: Test verschillende paden die de code kan nemen.
     }
 
 }
+=======
+}
+>>>>>>> Stashed changes
