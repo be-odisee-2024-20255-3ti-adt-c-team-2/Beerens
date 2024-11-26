@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: be.odisee.brainstormOnderwerp.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.283 s <<< FAILURE! - in be.odisee.brainstormOnderwerp.acceptancetests.AcceptanceTestSuite
+Het systeem stuurt een melding naar de voorraadinkoper wanneer de voorraad onder de minimumdrempel ligt  Time elapsed: 0.092 s  <<< FAILURE!
+org.junit.ComparisonFailure: De melding is niet zoals verwacht expected:<[De voorraad ligt onder de minimumpei]ler> but was:<[Voorraad ligt tussen de minimum- en maximumpij]ler>
+
+Het systeem geeft een melding bij te hoge voorraad  Time elapsed: 0.026 s  <<< FAILURE!
+org.junit.ComparisonFailure: De melding is niet zoals verwacht expected:<[De voorraad overschrijdt de maximumdrempel]> but was:<[Voorraad ligt tussen de minimum- en maximumpijler]>
+

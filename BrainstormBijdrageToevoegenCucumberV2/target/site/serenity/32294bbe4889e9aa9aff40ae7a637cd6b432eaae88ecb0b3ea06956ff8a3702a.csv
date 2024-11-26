@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Voorraadbeheer voor autosoort","Voorraadniveau is onder de min (BVA)","SUCCESS","2024-11-08T10:50:14.3702405+01:00[Europe/Brussels]","0.0","0.32"
-"Voorraadbeheer voor autosoort","Voorraadniveau binnen de grenzen (EP)","SUCCESS","2024-11-08T10:50:14.7132494+01:00[Europe/Brussels]","0.0","0.02"
-"Voorraadbeheer voor autosoort","Voorraadniveau gelijk aan min of max (BVA)","SUCCESS","2024-11-08T10:50:14.7445337+01:00[Europe/Brussels]","0.0","0.02"
-"Voorraadbeheer voor autosoort","Voorraadniveau is boven max (BVA)","SUCCESS","2024-11-08T10:50:14.7803431+01:00[Europe/Brussels]","0.0","0.02"

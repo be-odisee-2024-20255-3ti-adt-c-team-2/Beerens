@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Het onderwerp van de brainstorm veranderen","De brainstorm kan starten met het eerste onderwerp","SUCCESS","2024-11-26T19:32:54.0002703+01:00[Europe/Brussels]","0.0","0.18"
+"Het onderwerp van de brainstorm veranderen","Het onderwerp van de brainstorm kan een eerste keer veranderen","SUCCESS","2024-11-26T19:32:54.1952157+01:00[Europe/Brussels]","0.0","0.02"
+"Het onderwerp van de brainstorm veranderen","Het onderwerp van de brainstorm kan een tweede keer veranderen","SUCCESS","2024-11-26T19:32:54.2256263+01:00[Europe/Brussels]","0.0","0.03"
+"Het onderwerp van de brainstorm veranderen","Het onderwerp van de brainstorm kan een derde en volgende keer veranderen","SUCCESS","2024-11-26T19:32:54.2680084+01:00[Europe/Brussels]","0.0","0.03"
+"Bijwerken van de voorraad na een verkoop","Het systeem toont de voorraad en pijlers voor een autosoort binnen de limieten","SUCCESS","2024-11-26T23:20:54.9060588+01:00[Europe/Brussels]","0.0","0.18"
+"Bijwerken van de voorraad na een verkoop","Het systeem geeft een melding bij voorraad tussen de minimum- en maximumdrempel","SUCCESS","2024-11-26T23:20:55.0976437+01:00[Europe/Brussels]","0.0","0.02"
+"Bijwerken van de voorraad na een verkoop","Het systeem accepteert geen minimumdrempel lager dan 3 voor de voorraad","SUCCESS","2024-11-26T23:20:55.1196717+01:00[Europe/Brussels]","0.0","0.02"

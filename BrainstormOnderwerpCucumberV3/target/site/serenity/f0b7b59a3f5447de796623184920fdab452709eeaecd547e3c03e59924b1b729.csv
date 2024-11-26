@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Bijwerken van de voorraad na een verkoop","Het systeem stuurt een melding naar de voorraadinkoper wanneer de voorraad onder de minimumdrempel ligt","FAILURE","2024-11-26T23:20:55.1459335+01:00[Europe/Brussels]","0.0","0.08"
+"Bijwerken van de voorraad na een verkoop","Het systeem geeft een melding bij te hoge voorraad","FAILURE","2024-11-26T23:20:55.2373935+01:00[Europe/Brussels]","0.0","0.02"
