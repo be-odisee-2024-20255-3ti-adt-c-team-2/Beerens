@@ -40,6 +40,7 @@ public class VoorraadStepDefinitions {
     public void systeem_geeft_melding(String melding) throws Throwable {
         String meldingSysteem = service.controleerVoorraad(voertuig);
         assertEquals("De melding is niet zoals verwacht", melding, meldingSysteem);
+
     }
 
     @Dan("^geeft de optie \"([^\"]*)\"$")
@@ -77,7 +78,7 @@ public class VoorraadStepDefinitions {
         // Hier voeg je de logica toe voor het bijwerken van de voorraad
         // Dit zou kunnen zijn het aanroepen van een methode van de service om de voorraad bij te werken
         // Voorbeeld:
-        Autosoort autosoort = new Autosoort(1, "Tesla", "Model S", 10, 5, 15);
+        Autosoort autosoort = new Autosoort(1, "Tesla", "Model S", 7, 3, 10);
         service.updateVoorraadniveau(autosoort, 8); // Voorbeeld van het bijwerken van de voorraad
     }
 
